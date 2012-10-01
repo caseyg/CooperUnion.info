@@ -4,8 +4,60 @@
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
 	<meta name="description" content="{{ page.description }}">
+	<script src="http://use.edgefonts.net/pt-sans.js"></script>
+	<style type="text/css">
+	body {
+		font-family:pt-sans, Georgia, serif;
+		text-align:center;
+	}
+
+	h1 {
+		letter-spacing:1px;
+		font-weight:100;
+	}
+	
+	h2 {
+		background: darkgray;
+		color:white;
+		padding:3px 8px;
+		border-radius:3px;
+		display:inline-block;
+		font-size:.9em;
+	}
+
+	p, blockquote {
+		text-align:left;
+	}
+
+	blockquote {
+		font-size:.85em
+	}
+
+	hr {
+		border:none;
+		border-top:1px dotted #ccc;
+	}
+
+	section#content {
+		display: block;
+		padding:20px 5%;
+		margin:auto;
+		max-width:700px;
+	}
+
+	footer {
+		border-top:1px dotted #ccc;
+		padding-top:10px;
+		color:gray;
+	}
+	</style>
 </head>
 <body>
-{{ content }}
+	<section id="content">
+		{{ content }}
+	</section>
+	<footer>
+		Contribute to this page on <a href="https://github.com/caseyg/CooperUnion.info">Github</a>
+	</footer>
 </body>
 </html>
