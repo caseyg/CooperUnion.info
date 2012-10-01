@@ -20,7 +20,7 @@ description: A concise starting point for learning about the financial and philo
 
 ---
 
-### 2. [Why Cooper Union Matters](http://www.brooklynrail.org/2011/12/local/why-cooper-union-matters) by Litia Perta
+### 2. Read [Why Cooper Union Matters](http://www.brooklynrail.org/2011/12/local/why-cooper-union-matters) by Litia Perta
 
 A moving essay on the importance of Cooper Union's merit-based full-scholarship educational model, written for _The Brooklyn Rail_ by a former adjunct professor in the college's humanities department.
 
@@ -28,7 +28,7 @@ A moving essay on the importance of Cooper Union's merit-based full-scholarship 
 
 ---
 
-### 3. [The Way Forward](http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf) by [Friends of Cooper Union](http://friendsofcooperunion.org)
+### 3. Read [The Way Forward](http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf) by [Friends of Cooper Union](http://friendsofcooperunion.org)
 
 A 30-page (but very readable) document presented by members of the Cooper Union community to the college's administration outlining a future of that _doesn't_ involve charging tuition. Covers financial strategy and philosophical principles, and includes illuminating first-hand testimonials.
 
@@ -40,7 +40,13 @@ About Friends of Cooper Union:
 
 ---
 
-### 4. [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
+### 4. Join the [Save Cooper Union Facebook Group](http://facebook.com/groups/SaveCooperUnion/)
+
+One of the most lively sites for discussion and updates about what's going on at Cooper. Request to join and you will be added within a day or two.
+
+---
+
+### 5. Read [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
 
 An eccentric and obsessive collection of news and analyses put together by an Alumnus of the School of Engineering. A good resource for those looking to deep dive into the school's financial mysteries.
 
@@ -48,6 +54,6 @@ Barry also put together a [multi-part video guide to Cooper's financial crisis](
 
 ---
 
-### 5. [Money On The Table](http://freecooperunion.com)
+### 6. Pledge to [Money On The Table](http://freecooperunion.com)
 
 A campaign for putting your money where your mouth is by pledging to donate to Cooper Union if — and only if — its undergraduate programs remain tuition-free.
