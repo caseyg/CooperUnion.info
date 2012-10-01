@@ -1,4 +1,4 @@
 CooperUnion.info
 ================
 
-A concise starting point for those interested in learning about the challenges of finances and values facing Cooper Union.
+A concise starting point for learning about the financial and philosophical challenges facing The Cooper Union.
