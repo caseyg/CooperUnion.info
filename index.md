@@ -4,11 +4,15 @@ title: CooperUnion.info
 description: A concise starting point for learning about the financial and philosophical challenges facing The Cooper Union.
 ---
 
+![Photo by Pete Halupka](red-ribbons.jpg)
+
+---
+
 # A _concise_ starting point for learning about the **financial and philosophical challenges** facing [The Cooper Union](http://cooper.edu).
 
 ---
 
-### The Mission Statement
+### 1. Read the [Mission Statement](http://cooper.edu/about/mission-vision)
 
 >Through outstanding academic programs in architecture, art and engineering, and a Faculty of Humanities and Social Sciences, The Cooper Union for the Advancement of Science and Art prepares talented students to make enlightened contributions to society.
 
@@ -16,7 +20,7 @@ description: A concise starting point for learning about the financial and philo
 
 ---
 
-### [Why Cooper Union Matters](http://www.brooklynrail.org/2011/12/local/why-cooper-union-matters) by Litia Perta
+### 2. [Why Cooper Union Matters](http://www.brooklynrail.org/2011/12/local/why-cooper-union-matters) by Litia Perta
 
 A moving essay on the importance of Cooper Union's merit-based full-scholarship educational model, written for _The Brooklyn Rail_ by a former adjunct professor in the college's humanities department.
 
@@ -24,7 +28,7 @@ A moving essay on the importance of Cooper Union's merit-based full-scholarship 
 
 ---
 
-### [The Way Forward](http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf) by [Friends of Cooper Union](http://friendsofcooperunion.org)
+### 3. [The Way Forward](http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf) by [Friends of Cooper Union](http://friendsofcooperunion.org)
 
 A 30-page (but very readable) document presented by members of the Cooper Union community to the college's administration outlining a future of that _doesn't_ involve charging tuition. Covers financial strategy and philosophical principles, while also including personal testimonials.
 
@@ -36,7 +40,7 @@ About Friends of Cooper Union:
 
 ---
 
-### [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
+### 4. [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
 
 An eccentric and obsessive collection of news and analyses put together by an Alumnus of the School of Engineering. A good resource for those looking to deep dive into financial numbers.
 
@@ -44,6 +48,6 @@ Barry also put together a [multi-part video guide to Cooper's financial crisis](
 
 ---
 
-### [Money On The Table](http://freecooperunion.com)
+### 5. [Money On The Table](http://freecooperunion.com)
 
 A campaign for putting your money where your mouth is by pledging to donate to Cooper Union if — and only if — its undergraduate programs remain tuition-free.
