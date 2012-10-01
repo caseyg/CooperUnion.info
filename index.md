@@ -30,7 +30,7 @@ A moving essay on the importance of Cooper Union's merit-based full-scholarship 
 
 ### 3. [The Way Forward](http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf) by [Friends of Cooper Union](http://friendsofcooperunion.org)
 
-A 30-page (but very readable) document presented by members of the Cooper Union community to the college's administration outlining a future of that _doesn't_ involve charging tuition. Covers financial strategy and philosophical principles, while also including personal testimonials.
+A 30-page (but very readable) document presented by members of the Cooper Union community to the college's administration outlining a future of that _doesn't_ involve charging tuition. Covers financial strategy and philosophical principles, and includes illuminating first-hand testimonials.
 
 > "Over six months, Friends of Cooper Union worked with faculty, staff, students, alumni and friends to address Cooper Union's challenges. The result: a community-authored guide that offers first steps forward for a healthy, vibrant and free Cooper Union."
 
@@ -42,7 +42,7 @@ About Friends of Cooper Union:
 
 ### 4. [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
 
-An eccentric and obsessive collection of news and analyses put together by an Alumnus of the School of Engineering. A good resource for those looking to deep dive into financial numbers.
+An eccentric and obsessive collection of news and analyses put together by an Alumnus of the School of Engineering. A good resource for those looking to deep dive into the school's financial mysteries.
 
 Barry also put together a [multi-part video guide to Cooper's financial crisis](http://tinyurl.com/canbgkt) that serves as a good primer to the situation.
 
