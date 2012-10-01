@@ -1,4 +1,4 @@
 CooperUnion.info
 ================
 
-What's going on at Cooper Union
+A concise starting point for those interested in learning about the challenges of finances and values facing Cooper Union.
