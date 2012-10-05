@@ -46,11 +46,11 @@ One of the most lively sites for discussion and updates about what's going on at
 
 ---
 
-### 5. Read [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
+### 5. Browse [The Alumni Pioneer](http://www.notnicemusic.com/Cassandra/cooper.html) by Barry Drogin <sup><abbr title="Electrical Engineering">EE</abbr> '83</sup>
 
-An eccentric and obsessive collection of news and analyses put together by an Alumnus of the School of Engineering. A good resource for those looking to deep dive into the school's financial mysteries.
+A collection of news and analyses put together by an Alumnus of the School of Engineering. A good resource for those looking to deep dive into the school's financial mysteries.
 
-Barry also put together a [multi-part video guide to Cooper's financial crisis](http://tinyurl.com/canbgkt) that serves as a good primer to the situation.
+Highlights include Barry's [multi-part video guide to Cooper's financial crisis](http://tinyurl.com/canbgkt), and the site's section of [comics and infographics](http://demonofdebt.com) by Matt Arnold<sup><abbr title="School of Architecture">AR</abbr> '82</sup>.
 
 ---
 
