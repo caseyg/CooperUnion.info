@@ -57,3 +57,9 @@ Highlights include Barry's [multi-part video guide to Cooper's financial crisis]
 ### 6. Pledge to [Money On The Table](http://freecooperunion.com)
 
 A campaign for putting your money where your mouth is by pledging to donate to Cooper Union if — and only if — its undergraduate programs remain tuition-free.
+
+---
+
+### 7. Explore the [Cooper Union Task Force wiki](http://cooperuniontaskforce.com)
+
+Not to be confused with the administration's official [task forces](https://taskforce.cooper.edu/about), this community wiki has produced an exhaustive [matrix of over 600 ideas](http://cooperuniontaskforce.com/wiki/tiki-index.php?page=Matrix).
