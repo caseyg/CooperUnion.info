@@ -3,22 +3,13 @@ layout: default
 title: Student Actions — Updates by Text Message
 ---
 
-<script type="text/javascript">
-    $(document).ready(function() {
-		$('form').submit(function(){
-		    $('input[type=submit]', this).attr('disabled', 'disabled');
-		});
-    });
-</script>
-
-
 <img src="/stock-photo-21190138-group-of-young-people-with-mobile-phones.jpg" />
 
 <h1>Sign up for <strong>text notifications</strong><br /> from <a href="http://jac.cooper.edu/club/120">Student Actions</a> club at Cooper Union.</h1>
 
 <hr>
 
-<form id="gettxt" name="gettxt" action="/bf/text-e.php" method="POST">
+<form id="gettxt" name="gettxt" action="http://jac.cooper.edu/text/120" method="POST">
 	<table>
 		<tr><th class="row-head">Cooper Email</th><td><input type="text" name="uname" style="width: 60px; display:inline"> @cooper.edu</td></tr>
 
@@ -42,4 +33,11 @@ title: Student Actions — Updates by Text Message
 jQuery(function($){
    $("#phone").mask("(999) 999-9999");
 });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+		$('form').submit(function(){
+		    $('input[type=submit]', this).attr('disabled', 'disabled');
+		});
+    });
 </script>
