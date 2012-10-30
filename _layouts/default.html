@@ -18,15 +18,6 @@
 		letter-spacing:1px;
 		font-weight:100;
 	}
-	
-	h2 {
-		background: darkgray;
-		color:white;
-		padding:3px 8px;
-		border-radius:3px;
-		display:inline-block;
-		font-size:.9em;
-	}
 
 	p, blockquote {
 		text-align:left;
@@ -75,6 +66,22 @@
 		padding-right: 10px;
 	}
 
+	ul#posters {
+		list-style-type: none;
+		margin:20px 0;
+		padding:0;
+	}
+
+	ul#posters li {
+		width:30%;
+		margin: 0 3% 20px 0;
+		float:left;
+	}
+
+	ul#posters li img {
+		box-shadow:0 5px 10px rgba(0,0,0,.25);
+	}
+
 	/* Smartphones (portrait and landscape) ----------- */
 	@media only screen 
 	and (min-device-width : 320px) 
@@ -85,6 +92,14 @@
 		section#content, footer {
 			padding: 1% 2.5%;
 		}
+	}
+
+	/*clearfix*/
+
+	.group:after {
+	  content: "";
+	  display: table;
+	  clear: both;
 	}
 
 	</style>
