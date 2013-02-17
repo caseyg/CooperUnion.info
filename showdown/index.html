@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cooper Media Showdown</title>
+		<link href='http://fonts.googleapis.com/css?family=Ewert' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+		<style>
+			@font-face {
+				font-family: 'FoundryGridnikRegular';
+				src: url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-regular-webfont.eot');
+				src: url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-regular-webfont.eot?#iefix') format('embedded-opentype'),
+					 url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-regular-webfont.woff') format('woff'),
+					 url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-regular-webfont.ttf') format('truetype'),
+					 url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-regular-webfont.svg#FoundryGridnikRegular') format('svg');
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+			font-family: 'FoundryGridnikMedium';
+			src: url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-medium-webfont.eot');
+			src: url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-medium-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-medium-webfont.woff') format('woff'),
+				 url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-medium-webfont.ttf') format('truetype'),
+				 url('http://cooper.edu/sites/all/themes/cooper/assets/css/fonts/foundrygridnik-medium-webfont.svg#FoundryGridnikMedium') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		body {
+				font-family:sans-serif;
+				margin:0;
+				padding:0;
+				background-color:#fff;
+				font-size:12px;
+			}
+			#content {
+				width:95%;
+				margin:auto;
+			}
+			h1 {
+				font-family:Ewert;
+				text-align: center;
+				font-size:5em;
+			}
+			h2 {
+				text-align:center;
+				border-bottom:1px solid rgba(0,0,0,.15);
+				font-size:2em;
+				line-height:1.25em;
+				padding-bottom:.5em;
+				font-weight:700;
+			}
+			h3 {
+				font-size:1.5em;
+				line-height:1.25em;
+				margin-bottom:0;
+			}
+			p.meta {
+				color:gray;
+			}
+			#students, #jamshed {
+				width:45%;
+				padding:2.5%;
+				margin:0;
+			}
+			#students {
+				float:right;
+			}
+			#students h2, #students h3 {
+				font-family:"open sans";
+			}
+			#students h3 {
+				font-weight:500;
+			}
+			#jamshed {
+				float:left;
+			}
+			#jamshed h2, #jamshed h3 {
+				font-family:FoundryGridnikRegular;
+				font-weight:100;
+				text-transform:uppercase;
+			}
+			#jamshed h2 {
+				font-family:FoundryGridnikMedium;
+				font-weight:500;
+			}
+			ol {
+				margin:0;
+				padding:0 0 0 30px;
+			}
+			li {
+				border-bottom:1px solid rgba(0,0,0,.15);
+			}
+			li a:link, li a:visited {
+				color:#222;
+				text-decoration:none;
+			}
+			@-webkit-keyframes blink {
+				from {color: maroon;}
+				to {color: gold;}
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<section id="content">		
+			<header>
+				<h1>Cooper Media Showdown</h1>
+			</header>
+			<section id="students">
+				<h2>Students for a Free Cooper Union</h2>
+				<ol reversed></ol>
+			</section>
+			<section id="jamshed">
+				<h2>Jamshed's Administration</h2>
+				<ol reversed></ol>
+			</section>
+		</section>
+		
+		<script id="press-template" type="text/x-handlebars-template">
+			<li class="entry">
+				<h3><a href="{{link}}">{{title}}</a></h3>
+				<p class="meta">{{source}}{{#if author}}, {{#if twitter}}<a href="http://twitter.com/{{twitter}}">{{/if}}{{author}}{{#if twitter}}</a>{{/if}}{{/if}}}, {{date}}</p>
+			</li>
+		</script>
+
+		<!-- Don't need jQuery for Tabletop, but using it for this example -->
+		<script type="text/javascript" src="/js/handlebars.js"></script>
+		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script type="text/javascript" src="/js/tabletop.js"></script>
+		<script type="text/javascript">
+			var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0Aq0GkCYw2nm6dFFqVTJobFp3WnBVMUZocXhmNG9Xc0E&output=html';
+
+			$(document).ready( function() {
+				Tabletop.init( { key: public_spreadsheet_url,
+												 callback: showInfo,
+												 parseNumbers: true } );
+			});
+				
+			function showInfo(data, tabletop) {
+				var source   = $("#press-template").html();
+				var template = Handlebars.compile(source);
+
+				$.each( tabletop.sheets("Students").all(), function(i, press) {
+					var html = template(press);
+					$("#students ol").append(html);
+				});
+				$.each( tabletop.sheets("Admin").all(), function(i, press) {
+					var html = template(press);
+					$("#jamshed ol").append(html);
+				});
+			}
+		</script>
+	</body>
+</html>
