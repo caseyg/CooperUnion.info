@@ -1,0 +1,21 @@
+header {
+	background:#eee;
+	box-shadow: inner 0 10px 10px #ccc;
+}
+.joncuba {display:block;}
+header img {
+	display:block;
+	margin:auto;
+	padding:10px 0 0 0;
+	max-width:100%;
+	width:400px;
+}
+h1 {
+	font-family:Ewert;
+	text-align: center;
+	font-size:5em;
+	padding: 20px 0;
+	color:#01366d;
+	font-weight:100;
+	line-height:1em;
+}

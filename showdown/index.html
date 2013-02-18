@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Cooper Media Showdown</title>
+		<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Ewert' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
@@ -26,6 +27,10 @@
 			font-weight: normal;
 			font-style: normal;
 		}
+		html, body {
+			margin:0;
+			padding:0;
+		}
 		body {
 				font-family:sans-serif;
 				margin:0;
@@ -34,13 +39,19 @@
 				font-size:12px;
 			}
 			#content {
-				width:95%;
-				margin:auto;
+				width:100%;
+				margin: 0 auto;
+				padding:0;
+			}
+			header {
+				margin:0;
+				padding:0;
 			}
 			h1 {
-				font-family:Ewert;
-				text-align: center;
-				font-size:5em;
+				margin:0;
+				padding:40px 0 20px 0;
+				text-align:center;
+				font-size:4em;
 			}
 			h2 {
 				text-align:center;
@@ -54,6 +65,9 @@
 				font-size:1.5em;
 				line-height:1.25em;
 				margin-bottom:0;
+			}
+			.jakelee, .joncuba {
+				display:none;
 			}
 			p.meta {
 				color:gray;
@@ -103,10 +117,11 @@
 		</style>
 	</head>
 	<body>
-		
-		<section id="content">		
+		<section id="content">
 			<header>
+				<img class="jakelee" src="jakelee.png" />		
 				<h1>Cooper Media Showdown</h1>
+				<img class="joncuba" src="joncuba.jpg" />		
 			</header>
 			<section id="students">
 				<h2>Free Cooper Union Community</h2>
@@ -151,6 +166,17 @@
 					$("#jamshed ol").append(html);
 				});
 			}
+			// ---------------------------------------------------------------
+			// StyleSwap.js by Jessica Winblad
+			// A javascript library to swap out stylesheets at random
+			// ---------------------------------------------------------------
+
+			// modify this list to include the stylesheets you want to use
+			var itemList = new Array('jakelee.css', 'joncuba.css');
+
+			var randomNum = Math.round(Math.random() * (itemList.length-1)+0);
+			var writestring = "<link href='" +itemList[randomNum]+ "' rel='stylesheet' type='text/css'>";
+			document.write(writestring);
 		</script>
 	</body>
 </html>
